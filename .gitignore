@@ -30,3 +30,4 @@ pip-log.txt
 #pydev
 .project
 .pydevproject
+.settings/

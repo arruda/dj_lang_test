@@ -2,13 +2,13 @@
 from utils import LOCAL
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+     ('Your Name', 'your_email@example.com'),
 )
 MANAGERS = ADMINS
 
 TIME_ZONE = 'America/Chicago'
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 SITE_ID = 1
 

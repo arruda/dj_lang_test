@@ -29,9 +29,9 @@ from logging import *
 NO_DEPRECATION_WARNINGS=False
 if CURRENT_ENV == 'PROD':
     NO_DEPRECATION_WARNINGS=True
-    from env_dev import *
-else:
     from env_prod import *
+else:
+    from env_dev import *
 
 if NO_DEPRECATION_WARNINGS:
     import warnings
