@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+import sys
+from django_structurer.structurer import app_starter
+
+if __name__ == "__main__":
+    app_name = sys.argv[1]
+    try:
+        yaml_file = file("app_structure.yaml",'r')
+    except:
+        raise           
+    app_folder='./apps'   
+    
+    app_starter(app_name,app_folder, yaml_file)
+

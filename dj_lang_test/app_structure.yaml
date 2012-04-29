@@ -1,0 +1,25 @@
+archives:
+- {name: __init__.py}
+- archives:
+  - {name: __init__.py}
+  - {name: $app_name.py}
+  name: models
+- archives:
+  - {name: __init__.py}
+  - {name: $app_name.py}
+  name: admin
+- archives:
+  - {name: __init__.py}
+  - {name: $app_name.py}
+  name: views
+- archives:
+  - {name: __init__.py}
+  - {name: tests_models.py}
+  - {name: tests_views.py}
+  name: tests
+- archives:
+  - {name: __init__.py}
+  - {name: $app_name.py}
+  name: forms
+name: $app_name
+var: $create_with_app
