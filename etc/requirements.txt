@@ -1,0 +1,7 @@
+django==1.4
+-e git+git://github.com/arruda/django-extensions.git#egg=django-extensions
+django-annoying
+
+bpython
+yolk
+PyYaml
